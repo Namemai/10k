@@ -950,7 +950,7 @@ def bot(op):
                   cl.findAndAddContactsByMid(op.param1)
                   sendMention(op.param1, op.param1, "Haii ", ", terimakasih sudah add saya")
                   cl.sendText(op.param1, wait["message"])
-                  cl.sendContact(op.param1,"uc66e45201d1612eb4ce7b3a86bac4685") )
+                  cl.sendContact(op.param1,"uc66e45201d1612eb4ce7b3a86bac4685")
 
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
